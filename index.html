@@ -3,9 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Medjit Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 40px;
+        }
+        .site-links {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .site-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        .site-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <h1>Welcome to Medjit Hub</h1>
+    <div class="site-links">
+        <a href="./sketcher_dist/index.html" class="site-button">Open JSketcher</a>
+        <!-- Add more links here for future subsites, e.g., <a href="./another_site/index.html" class="site-button">Another Site</a> -->
+    </div>
 </body>
 </html>
