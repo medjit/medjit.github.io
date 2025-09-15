@@ -1,1 +1,0 @@
-# medjit.github.io
